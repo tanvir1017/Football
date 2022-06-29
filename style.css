@@ -1,0 +1,141 @@
+/* @font-collections cdn link here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* @font-collections cdn link here */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* header section */
+header{
+    background-color: #264653;
+}
+.logo img{
+    width: 100px;
+}
+ul li a{
+    color: white !important;
+}
+.log-in
+{
+    background-color: #E76F51;
+    padding: 8px 40px;
+    border-radius: 10px;
+}
+.navbar-toggler:focus{
+    box-shadow: none !important;
+}
+.my-icon img{
+    
+    width: 30px;
+}
+.header-text p small{
+    font-size: 14px;
+
+}
+.header-title
+{
+    font-size: 48px;
+    letter-spacing: 2px;
+}
+.my-btn{
+    padding: 10px 30px;
+    background-color: #E76F51;
+    letter-spacing: 1px;
+}
+.my-btn:focus{
+    box-shadow: none !important;
+}
+/* header section */
+
+/* main section */
+.featured-bike{
+    margin: 40px auto;
+}
+.section-title{
+    margin-bottom: 100px;
+}
+.section-title p{
+    font-weight: 600;
+    font-size: 14px;
+    color: #E76F51;
+    position: relative;
+}
+.section-title p::after
+{
+    content: "";
+    display: block;
+    background-color: #E76F51;
+    width: 100px;
+    height: 4px;
+    position: absolute;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.feature-filter img{
+    filter: grayscale(1);
+}
+
+.satisfactions{
+    margin: 40px auto;
+}
+#client-section-title{
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.client-satisfactions{
+    color: #E76F51;
+}
+.rating-icon i
+{
+    color: #E77C40;
+}
+.my-style-accordian{
+    overflow: scroll;
+    height: 80%;
+}
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url(images/plus.svg) !important;
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+}
+.current-offer h2
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+.current-offer p small{
+    font-size: 14px;
+}
+.current-offer h2::after{
+    content: "";
+    display: block;
+    background-color: #E76F51;
+    width: 250px;
+    height: 4px;
+    position: relative;
+    top: 5px;
+}
+
+.modal-body video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: auto;
+    width: 50%;
+}
+
+footer{
+    margin-top: 80px;
+}
+
+/* main section */
